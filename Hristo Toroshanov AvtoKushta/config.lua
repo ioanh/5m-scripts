@@ -46,13 +46,13 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-45.65, -1093.66, 25.44, 69.5), -- where the vehicle will spawn on display
-                defaultVehicle = 'gle21', -- Default display vehicle
-                chosenVehicle = 'gle21', -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'adder', -- Default display vehicle
+                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(-48.27, -1101.86, 25.44, 294.5),
-                defaultVehicle = 'mlnovitec',
-                chosenVehicle = 'mlnovitec',
+                defaultVehicle = 'schafter2',
+                chosenVehicle = 'schafter2',
             },
             [3] = {
                 coords = vector4(-39.6, -1096.01, 25.44, 66.5),
@@ -61,18 +61,18 @@ Config.Shops = {
             },
             [4] = {
                 coords = vector4(-51.21, -1096.77, 25.44, 254.5),
-                defaultVehicle = 'ursa',
-                chosenVehicle = 'ursa',
+                defaultVehicle = 'vigero',
+                chosenVehicle = 'vigero',
             },
             [5] = {
                 coords = vector4(-40.18, -1104.13, 25.44, 338.5),
-                defaultVehicle = 'aventadors',
-                chosenVehicle = 'aventadors',
+                defaultVehicle = 't20',
+                chosenVehicle = 't20',
             },
             [6] = {
                 coords = vector4(-43.31, -1099.02, 25.44, 52.5),
-                defaultVehicle = 'bmwm8',
-                chosenVehicle = 'bmwm8',
+                defaultVehicle = 'bati',
+                chosenVehicle = 'bati',
             },
             [7] = {
                 coords = vector4(-50.66, -1093.05, 25.44, 222.5),
@@ -90,25 +90,21 @@ Config.Shops = {
         ['Type'] = 'managed',  -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
-                vector2(-1260.6973876953, -349.21334838867),
-                vector2(-1268.6248779297, -352.87365722656),
-                vector2(-1274.1533203125, -358.29794311523),
-                vector2(-1273.8425292969, -362.73715209961),
-                vector2(-1270.5701904297, -368.6716003418),
-                vector2(-1266.0561523438, -375.14080810547),
-                vector2(-1244.3684082031, -362.70278930664),
-                vector2(-1249.8704833984, -352.03326416016),
-                vector2(-1252.9503173828, -345.85726928711)
+                vector2(-787.85559082032, -247.81187438964),
+                vector2(-787.91497802734, -247.86921691894),
+                vector2(-779.1900024414, -244.10165405274),
+                vector2(-776.41522216796, -220.62818908692),
+                vector2(-786.14172363282, -202.76622009278),
+                vector2(-808.62670898438, -211.6842803955)
             },
-            ['minZ'] = 36.646457672119,
-            ['maxZ'] = 37.516143798828
+            ['minZ'] = 37.150302886962,
+            ['maxZ'] = 37.172267913818
         },
         ['Job'] = 'cardealer', -- Name of job or none
         ['ShopLabel'] = 'Автокъща Торошанов',
         ['showBlip'] = true,  --- true or false
         ['Categories'] = {
-            ['super'] = 'Super',
-            ['sports'] = 'Sports'
+            ['custom'] = 'custom',
         },
         ['TestDriveTimeLimit'] = 0.5,
         ['Location'] = vector3(-786.99, -226.92, 37.15),
@@ -116,75 +112,35 @@ Config.Shops = {
         ['VehicleSpawn'] = vector4(-1231.46, -349.86, 37.33, 26.61),
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-791.54, -217.96, 37.0, 82.63),
+                coords = vector4(-791.54, -217.96, 39.44, 82.63),
                 defaultVehicle = 'ocnlamtmc',
                 chosenVehicle = 'ocnlamtmc',
             },
             [2] = {
-                coords = vector4(-787.79, -207.19, 36.7, 120.05),
-                defaultVehicle = '18performante', 
+                coords = vector4(-787.79, -207.19, 39.44, 120.05),
+                defaultVehicle = '18performante',
                 chosenVehicle = '18performante',
             },
             [3] = {
-                coords = vector4(-779.71, -219.21, 36.81, 69.22),
-                defaultVehicle = 'aventadors', 
-                chosenVehicle = 'aventadors',
+                coords = vector4(-779.71, -219.21, 39.44, 69.22),
+                defaultVehicle = 'gle21',
+                chosenVehicle = 'gle21',
             },
             [4] = {
-                coords = vector4(-804.25, -212.99, 36.85, 262.94),
-                defaultVehicle = 'm3f80', 
+                coords = vector4(-804.25, -212.99, 39.44, 262.94),
+                defaultVehicle = 'm3f80',
                 chosenVehicle = 'm3f80',
             },
             [5] = {
-                coords = vector4(-802.94, -216.11, 36.64, 255.31),
-                defaultVehicle = 'bmwm8', 
-                chosenVehicle = ' bmwm8',
+                coords = vector4(-802.94, -216.11, 39.44, 255.31),
+                defaultVehicle = 'bmwm8',
+                chosenVehicle = 'bmwm8',
             },
             [6] = {
-                coords = vector4(-796.71, -227.39, 36.99, 332.5),
-                defaultVehicle = 'rocket', 
+                coords = vector4(-796.71, -227.39, 39.44, 332.5),
+                defaultVehicle = 'rocket',
                 chosenVehicle = 'rocket',
             },
-            -- [7] = {
-            --     coords = vector4(-794.46, -230.26, 36.79, 332.42),
-            --     defaultVehicle = 'c63s', 
-            --     chosenVehicle = 'c63s',
-            -- },
-            -- [8] = {
-            --     coords = vector4(-792.68, -233.46, 36.35, 334.27),
-            --     defaultVehicle = 'gle21', 
-            --     chosenVehicle = 'gle21',
-            -- },
-            -- [9] = {
-            --     coords = vector4(-790.96, -236.61, 36.67, 332.38),
-            --     defaultVehicle = 'cullinanbb', 
-            --     chosenVehicle = 'cullinanbb',
-            -- },
-            -- [10] = {
-            --     coords = vector4(-788.93, -239.78, 36.67, 332.35),
-            --     defaultVehicle = 'mlnovitec', 
-            --     chosenVehicle = 'mlnovitec',
-            -- },
-            -- [11] = {
-            --     coords = vector4(-786.92, -243.12, 36.67, 334.72),
-            --     defaultVehicle = 'ursa', 
-            --     chosenVehicle = 'ursa',
-            -- },
-            -- [12] = {
-            --     coords = vector4(-780.66, -243.93, 36.67, 121.46),
-            --     defaultVehicle = 'zx10r', 
-            --     chosenVehicle = 'zx10r',
-            -- },
-            -- [13] = {
-            --     coords = vector4(-781.87, -241.98, 36.69, 120.18),
-            --     defaultVehicle = 'hornet2014', 
-            --     chosenVehicle = 'hornet2014',
-            -- },
-            -- [14] = {
-            --     coords = vector4(-780.88, -237.43, 36.68, 117.97),
-            --     defaultVehicle = 'bmws19', 
-            --     chosenVehicle = 'bmws19',
-            -- },
         }
     } -- Add your next table under this comma
 }
