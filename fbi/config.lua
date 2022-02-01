@@ -47,15 +47,15 @@ Config.Locations = {
         [3] = vector3(455.1456, -985.462, 30.689),
     },
     ["stations"] = {
-        [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
+        [1] = {label = "police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
         [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        [3] = {label = "Police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+        [3] = {label = "police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
     },
 }
 
 Config.ArmoryWhitelist = {}
 
-Config.PoliceHelicopter = "POLMAV"
+Config.policeHelicopter = "POLMAV"
 
 Config.SecurityCameras = {
     hideradar = false,
@@ -100,85 +100,46 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["police2"] = "Полицейско МПС: 84",
-		["police3"] = "Полицейско МПС: 43",
+
 		["police4"] = "Полицейско МПС: ФБР",
-		["policeb"] = "Мотор",
-		["policet"] = "Полицейско МПС: Бус",
-		["sheriff2"] = "Полицейско МПС: Пикап",
-        ["policer8"] = "Полицейско МПС: R8",
-        ["2018k9chgrrb"] = "Полицейско МПС: Dodge",
-        ["apolicec6"] = "Полицейско МПС: Porsche",
         ["pd_supra"] = "Полицейско МПС: ФБР Supra",
-        ["durango"] = "Полицейско МПС: ФБР Dodge J",
-        ["chgr"] = "Полицейско МПС: ФБР Dodge S",
-        ["pd_bmwr"] = "Полицейско МПС: BMW",
+        ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
+        ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
+        ["ram"] = "Полицейско МПС: ФБР RAM",
         
 	},
 	-- Grade 1
 	[1] = {
-		["police2"] = "Полицейско МПС: 84",
-		["police3"] = "Полицейско МПС: 43",
 		["police4"] = "Полицейско МПС: ФБР",
-		["policeb"] = "Мотор",
-		["policet"] = "Полицейско МПС: Бус",
-		["sheriff2"] = "Полицейско МПС: Пикап",
-        ["policer8"] = "Полицейско МПС: R8",
-        ["2018k9chgrrb"] = "Полицейско МПС: Dodge",
-        ["apolicec6"] = "Полицейско МПС: Porsche",
         ["pd_supra"] = "Полицейско МПС: ФБР Supra",
-        ["durango"] = "Полицейско МПС: ФБР Dodge J",
-        ["chgr"] = "Полицейско МПС: ФБР Dodge S",
-        ["pd_bmwr"] = "Полицейско МПС: BMW",
+        ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
+        ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
+        ["ram"] = "Полицейско МПС: ФБР RAM",
 
 	},
 	-- Grade 2
 	[2] = {
-		["police2"] = "Полицейско МПС: 84",
-		["police3"] = "Полицейско МПС: 43",
 		["police4"] = "Полицейско МПС: ФБР",
-		["policeb"] = "Мотор",
-		["policet"] = "Полицейско МПС: Бус",
-		["sheriff2"] = "Полицейско МПС: Пикап",
-        ["policer8"] = "Полицейско МПС: R8",
-        ["2018k9chgrrb"] = "Полицейско МПС: Dodge",
-        ["apolicec6"] = "Полицейско МПС: Porsche",
         ["pd_supra"] = "Полицейско МПС: ФБР Supra",
-        ["durango"] = "Полицейско МПС: ФБР Dodge J",
-        ["chgr"] = "Полицейско МПС: ФБР Dodge S",
-        ["pd_bmwr"] = "Полицейско МПС: BMW",
+        ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
+        ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
+        ["ram"] = "Полицейско МПС: ФБР RAM",
 	},
 	-- Grade 3
 	[3] = {
-		["police2"] = "Полицейско МПС: 84",
-		["police3"] = "Полицейско МПС: 43",
 		["police4"] = "Полицейско МПС: ФБР",
-		["policeb"] = "Мотор",
-		["policet"] = "Полицейско МПС: Бус",
-		["sheriff2"] = "Полицейско МПС: Пикап",
-        ["policer8"] = "Полицейско МПС: R8",
-        ["2018k9chgrrb"] = "Полицейско МПС: Dodge",
-        ["apolicec6"] = "Полицейско МПС: Porsche",
         ["pd_supra"] = "Полицейско МПС: ФБР Supra",
-        ["durango"] = "Полицейско МПС: ФБР Dodge J",
-        ["chgr"] = "Полицейско МПС: ФБР Dodge S",
-        ["pd_bmwr"] = "Полицейско МПС: BMW",
+        ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
+        ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
+        ["ram"] = "Полицейско МПС: ФБР RAM",
 	},
 	-- Grade 4
 	[4] = {
-		["police2"] = "Полицейско МПС: 84",
-		["police3"] = "Полицейско МПС: 43",
 		["police4"] = "Полицейско МПС: ФБР",
-		["policeb"] = "Мотор",
-		["policet"] = "Полицейско МПС: Бус",
-		["sheriff2"] = "Полицейско МПС: Пикап",
-        ["policer8"] = "Полицейско МПС: R8",
-        ["2018k9chgrrb"] = "Полицейско МПС: Dodge",
-        ["apolicec6"] = "Полицейско МПС: Porsche",
         ["pd_supra"] = "Полицейско МПС: ФБР Supra",
-        ["durango"] = "Полицейско МПС: ФБР Dodge J",
-        ["chgr"] = "Полицейско МПС: ФБР Dodge S",
-        ["pd_bmwr"] = "Полицейско МПС: BMW",
+        ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
+        ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
+        ["ram"] = "Полицейско МПС: ФБР RAM",
 	}
 }
 
@@ -232,7 +193,7 @@ Config.CarItems = {
 }
 
 Config.Items = {
-    label = "Police Armory",
+    label = "police Armory",
     slots = 30,
     items = {
         [1] = {
