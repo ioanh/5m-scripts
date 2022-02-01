@@ -112,34 +112,59 @@ Config.Shops = {
         ['VehicleSpawn'] = vector4(-1231.46, -349.86, 37.33, 26.61),
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-791.54, -217.96, 39.44, 82.63),
+                coords = vector4(-791.54, -217.96, 36.45, 82.63),
+                defaultVehicle = 'taycan',
+                chosenVehicle = 'taycan',
+            },
+            [2] = {
+                coords = vector4(-787.79, -207.19, 36.15, 120.05),
                 defaultVehicle = 'ocnlamtmc',
                 chosenVehicle = 'ocnlamtmc',
             },
-            [2] = {
-                coords = vector4(-787.79, -207.19, 39.44, 120.05),
+            [3] = {
+                coords = vector4(-779.71, -219.21, 36.15, 69.22),
                 defaultVehicle = '18performante',
                 chosenVehicle = '18performante',
             },
-            [3] = {
-                coords = vector4(-779.71, -219.21, 39.44, 69.22),
-                defaultVehicle = 'gle21',
-                chosenVehicle = 'gle21',
-            },
             [4] = {
-                coords = vector4(-804.25, -212.99, 39.44, 262.94),
+                coords = vector4(-804.25, -212.99, 36.15, 262.94),
                 defaultVehicle = 'm3f80',
                 chosenVehicle = 'm3f80',
             },
             [5] = {
-                coords = vector4(-802.94, -216.11, 39.44, 255.31),
+                coords = vector4(-802.94, -216.11, 36.15, 255.31),
                 defaultVehicle = 'bmwm8',
                 chosenVehicle = 'bmwm8',
             },
             [6] = {
-                coords = vector4(-796.71, -227.39, 39.44, 332.5),
+                coords = vector4(-796.71, -227.39, 36.15, 332.5),
                 defaultVehicle = 'rocket',
                 chosenVehicle = 'rocket',
+            },
+            [7] = {
+                coords = vector4(-794.06, -230.28, 36.15, 335.52),
+                defaultVehicle = 'c63s',
+                chosenVehicle = 'c63s',
+            },
+            [8] = {
+                coords = vector4(-792.01, -233.66, 36.15, 339.23),
+                defaultVehicle = 'gle21',
+                chosenVehicle = 'gle21',
+            },
+            [9] = {
+                coords = vector4(-790.02, -237.33, 36.15, 340.24),
+                defaultVehicle = 'mlnovitec',
+                chosenVehicle = 'mlnovitec',
+            },
+            [10] = {
+                coords = vector4(-788.2, -240.86, 36.15, 342.4),
+                defaultVehicle = 'cullinan',
+                chosenVehicle = 'cullinan',
+            },
+            [11] = {
+                coords = vector4(-786.37, -244.94, 36.15, 333.07),
+                defaultVehicle = 'jeepg',
+                chosenVehicle = 'jeepg',
             },
         }
     } -- Add your next table under this comma
