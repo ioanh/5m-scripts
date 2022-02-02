@@ -12,54 +12,34 @@ Config.MaxSpikes = 5
 
 Config.HandCuffItem = 'handcuffs'
 
-Config.LicenseRank = 4
+Config.LicenseRank = 7
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(119.75, -768.54, 242.15),
+        [1] = vector3(-800.96, 178.94, 76.74),
     },
     ["vehicle"] = {
-        [1] = vector4(159.99, -701.77, 33.13, 248.14),
+        [1] = vector4(-2669.62, 1304.91, 147.12, 288.73),
     },
     ["stash"] = {
-        [1] = vector3(123.8, -770.22, 242.15),
-    },
-    ["impound"] = {
-        [1] = vector4(436.68, -1007.42, 27.32, 180.0),
-        [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
-    },
-    ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234),
-        [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
+        [1] = vector3(-2679.5, 1325.51, 144.26),
     },
     ["armory"] = {
-        [1] = vector3(118.4, -728.8, 242.15),
+        [1] = vector3(-2675.62, 1331.05, 140.88),
     },
     ["trash"] = {
-        [1] = vector3(439.0907, -976.746, 30.776),
-    },
-    ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
-    },
-    ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
-        [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
-    },
-    ["stations"] = {
-        -- [1] = {label = "police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
-        -- [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        -- [3] = {label = "police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+        [1] = vector3(-2677.32, 1314.59, 147.44),
     },
 }
 
 Config.ArmoryWhitelist = {}
 
-Config.fbiHelicopter = "POLMAV"
+Config.policeHelicopter = "POLMAV"
 
 Config.SecurityCameras = {
     hideradar = false,
     cameras = {
-        [1] = {label = "Pacific Bank CAM#1", coords = vector3(257.45, 210.07, 109.08), r = {x = -25.0, y = 0.0, z = 28.05}, canRotate = false, isOnline = true},
+        [1] = {label = "RUSSIAN MAFIA", coords = vector3(-2637.73, 1289.37, 159.36), r = {x = -25.0, y = 0.0, z = 28.05}, canRotate = true, isOnline = true},
+
     },
 }
 
@@ -119,21 +99,6 @@ Config.AmmoLabels = {
     ["AMMO_SHOTGUN"] = "12-gauge bullet",
     ["AMMO_SNIPER"] = "Large caliber bullet",
 }
-
-Config.Radars = {
-	vector4(-623.44421386719, -823.08361816406, 25.25704574585, 145.0),
-	vector4(-652.44421386719, -854.08361816406, 24.55704574585, 325.0),
-	vector4(1623.0114746094, 1068.9924316406, 80.903594970703, 84.0),
-	vector4(-2604.8994140625, 2996.3391113281, 27.528566360474, 175.0),
-	vector4(2136.65234375, -591.81469726563, 94.272926330566, 318.0),
-	vector4(2117.5764160156, -558.51013183594, 95.683128356934, 158.0),
-	vector4(406.89505004883, -969.06286621094, 29.436267852783, 33.0),
-	vector4(657.315, -218.819, 44.06, 320.0),
-	vector4(2118.287, 6040.027, 50.928, 172.0),
-	vector4(-106.304, -1127.5530, 30.778, 230.0),
-	vector4(-823.3688, -1146.980, 8.0, 300.0),
-}
-
 Config.CarItems = {
     [1] = {
         name = "heavyarmor",
@@ -159,7 +124,7 @@ Config.CarItems = {
 }
 
 Config.Items = {
-    label = "police Armory",
+    label = "russian mafia ",
     slots = 30,
     items = {
         [1] = {

@@ -12,7 +12,7 @@ Config.MaxSpikes = 5
 
 Config.HandCuffItem = 'handcuffs'
 
-Config.LicenseRank = 2
+Config.LicenseRank = 7
 Config.Locations = {
     ["duty"] = {
         [1] = vector3(-2677.38, 1336.65, 152.02),
