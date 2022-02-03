@@ -72,6 +72,7 @@ Config.AuthorizedVehicles = {
         ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
         ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
         ["ram"] = "Полицейско МПС: ФБР RAM",
+        ["riot"] = "Полицейско МПС: Бронирано",
         
 	},
 	-- Grade 1
@@ -81,7 +82,7 @@ Config.AuthorizedVehicles = {
         ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
         ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
         ["ram"] = "Полицейско МПС: ФБР RAM",
-
+        ["riot"] = "Полицейско МПС: Бронирано",
 	},
 	-- Grade 2
 	[2] = {
@@ -90,6 +91,7 @@ Config.AuthorizedVehicles = {
         ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
         ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
         ["ram"] = "Полицейско МПС: ФБР RAM",
+        ["riot"] = "Полицейско МПС: Бронирано",
 	},
 	-- Grade 3
 	[3] = {
@@ -98,6 +100,7 @@ Config.AuthorizedVehicles = {
         ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
         ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
         ["ram"] = "Полицейско МПС: ФБР RAM",
+        ["riot"] = "Полицейско МПС: Бронирано",
 	},
 	-- Grade 4
 	[4] = {
@@ -106,6 +109,7 @@ Config.AuthorizedVehicles = {
         ["durango"] = "Полицейско МПС: ФБР Dodge Durango",
         ["chgr"] = "Полицейско МПС: ФБР Dodge CHRG",
         ["ram"] = "Полицейско МПС: ФБР RAM",
+        ["riot"] = "Полицейско МПС: Бронирано",
 	}
 }
 

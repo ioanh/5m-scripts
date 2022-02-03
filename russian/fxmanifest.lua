@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'QB-russian mafia Job'
+description 'QB-russian-Job'
 version '1.0.0'
 
 shared_scripts {
